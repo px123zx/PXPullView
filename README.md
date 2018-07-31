@@ -1,13 +1,13 @@
-#气泡选择框
+# 气泡选择框
 
-#使用方法
+# 使用方法
 ``` swift
 let configure = PXPullConfigure()
 configure.apexPoint = CGPoint(x: UIScreen.main.bounds.width - 45, y: 45)
 let view = PXPullView.init(configure: configure, titileArr: ["测试1","测试2","测试3","测试4","测试5"])
         view.show()
 ```
->configure为view的配置参数，apexPoint为三角的顶点位置，可选的配置参数如下
+> configure为view的配置参数，apexPoint为三角的顶点位置，可选的配置参数如下
 ``` swift
 class PXPullConfigure {
     var width: CGFloat = 100
@@ -51,7 +51,7 @@ class PXPullConfigure {
             }
         }
 ``` 
-#效果图如下
+# 效果图如下
 ![效果图](https://upload-images.jianshu.io/upload_images/2260856-bb1c072222fbc6c9.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
  [GitHub地址](超链接地址 "https://github.com/px123zx/PXPullView")
